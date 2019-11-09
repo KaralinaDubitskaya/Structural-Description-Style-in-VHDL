@@ -1,0 +1,8 @@
+work	"full_adder.vhd"
+work	"half_adder.vhd"
+work	"lab2_AND2.vhd"
+work	"lab2_or.vhd"
+work	"lab2_xor.vhd"
+work	"task4.vhd"
+work	"task4_Beh.vhd"
+work	"task4_Struct.vhd"

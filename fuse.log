@@ -1,0 +1,32 @@
+Running: E:\xilinx1\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/xilinx/projects/lab2/task4_testbench_isim_beh.exe -prj E:/xilinx/projects/lab2/task4_testbench_beh.prj work.task4_testbench 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/xilinx/projects/lab2/lab2_xor.vhd" into library work
+Parsing VHDL file "E:/xilinx/projects/lab2/lab2_AND2.vhd" into library work
+Parsing VHDL file "E:/xilinx/projects/lab2/lab2_or.vhd" into library work
+Parsing VHDL file "E:/xilinx/projects/lab2/half_adder.vhd" into library work
+Parsing VHDL file "E:/xilinx/projects/lab2/full_adder.vhd" into library work
+Parsing VHDL file "E:/xilinx/projects/lab2/task4_Struct.vhd" into library work
+Parsing VHDL file "E:/xilinx/projects/lab2/task4_Beh.vhd" into library work
+Parsing VHDL file "E:/xilinx/projects/lab2/task4.vhd" into library work
+Parsing VHDL file "E:/xilinx/projects/lab2/task4_testbench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity task4_Beh [task4_beh_default]
+Compiling architecture behavioral of entity lab2_xor [lab2_xor_default]
+Compiling architecture behavioral of entity lab2_and [lab2_and_default]
+Compiling architecture struct of entity half_adder [half_adder_default]
+Compiling architecture behavioral of entity lab2_or [lab2_or_default]
+Compiling architecture behavioral of entity full_adder [full_adder_default]
+Compiling architecture behavioral of entity task4_Struct [task4_struct_default]
+Compiling architecture behavioral of entity task4 [task4_default]
+Compiling architecture behavior of entity task4_testbench
+Time Resolution for simulation is 1ps.
+Compiled 19 VHDL Units
+Built simulation executable E:/xilinx/projects/lab2/task4_testbench_isim_beh.exe
+Fuse Memory Usage: 29460 KB
+Fuse CPU Usage: 327 ms
